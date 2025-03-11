@@ -1,0 +1,72 @@
+/* Cashback Page Styling */
+.cashback-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #00c6ff, #0072ff); /* Unique gradient */
+}
+
+.cashback-box {
+    background: rgba(86, 80, 119, 0.2);
+    padding: 30px;
+    border-radius: 0px;
+    backdrop-filter: blur(8px);
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 90%;
+}
+
+.cashback-box h1 {
+    font-size: 24px;
+    color: #c71212;
+    margin-bottom: 15px;
+}
+
+.cashback-box h2, 
+.cashback-box h3 {
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.cashback-box button {
+    width: 700px;
+    padding: 12px;
+    background: #ffcc00; /* Gold color for cashback */
+    color: rgb(32, 120, 179);
+    border: none;
+    font-size: 18px;
+    border-radius: 0px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.cashback-box button:hover {
+    background: #ffb300;
+}
+
+@media (max-width: 400px) {
+    .cashback-box {
+        width: 90%;
+    }
+}
+
+@keyframes glowing {
+    0% {
+      background-color: #36d1dc;
+      box-shadow: 0 0 5px #16848b;
+    }
+    50% {
+      background-color: #5b86e5;
+      box-shadow: 0 0 20px #5b86e5;
+    }
+    100% {
+      background-color: #36d1dc;
+      box-shadow: 0 0 5px #36d1dc;
+    }
+  }
+  body{
+    
+    background: linear-gradient(135deg, #667eea, #764ba2);
+  }

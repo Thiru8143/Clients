@@ -1,0 +1,199 @@
+/* body{
+  width: 100%;
+  overflow-x: hidden;
+}
+.nav-conatainer{
+  width: 100%;
+}
+.navboxx{
+  width: 80%;
+  height: 50px;
+  background: linear-gradient(45deg, #6a11cb, #2575fc);
+  box-shadow: 0 4px 0px rgba(0, 0, 0, 0.7);
+
+  z-index: 11;
+  position: absolute;
+  top: 110px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 0px 0px 20px 20px;
+
+}
+.navboxx > p{
+  color: white;
+  margin: 0px 0px 0px 140px ;
+  font-size: 1.5rem;
+}
+.boxsix{
+  position: absolute;
+  width: 10px ;
+  background-color: white;
+  height: 50px;
+  position: absolute;
+  bottom: 0;
+  left: 281.6px;
+  
+
+}
+.navbar {
+  background: linear-gradient(45deg, #6a11cb, #2575fc);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.7);
+  height: 100px;
+
+  margin: 0px auto;
+
+}
+.boxone{
+  width: 10px ;
+  background-color: white;
+  height: 50px;
+  position: absolute;
+  top: 0;
+  left: 400px;
+}
+.boxtwo{
+  position: absolute;
+  width: 10px ;
+  background-color: white;
+  height: 50px;
+  position: absolute;
+  bottom: 0;
+  left: 450px;
+}
+
+.boxthree{
+  width: 60px;
+  height: 10px ;
+  background-color: white;
+  position: absolute;
+
+  left: 400px;
+}
+.navbar-brand {
+  font-family: 'Pacifico', cursive;
+  font-size: 2.8rem;
+  color: white;
+}
+
+.nav-link {
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  font-weight: 500;
+  font-size: 1.3rem;
+}
+
+.nav-link:hover {
+
+  color: #ffc107;
+}
+
+.navbar-nav {
+  margin-left: 500px;
+  display: flex;
+  justify-content: space-around;
+  width: 1300px;
+}
+.boxfour {
+  position: absolute;
+  width: 15px;
+  background-color: white;
+  height: 50px;
+  bottom: 0;
+  right: 20px;
+  transform: skew(50deg);
+}
+.boxfive {
+  position: absolute;
+  width: 15px;
+  background-color: white;
+  height: 50px;
+  top: 0;
+  right: 20px;
+  transform: skew(-50deg);
+}
+
+
+@media (max-width: 768px) {
+  .navbar-nav {
+    background: linear-gradient(45deg, #2575fc, #6a11cb);
+  }
+}
+ */
+
+ .nav-container {
+  background: linear-gradient(45deg, #cc799c, #c95367);
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  font-family: 'Arial', sans-serif;
+  color: white;
+}
+
+.navbar {
+  background-color: transparent !important;
+}
+
+.navbar .navbar-brand {
+  font-weight: bold;
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+.navbar .nav-link {
+  color: #fff !important;
+  font-size: 1.1rem;
+  margin: 0 10px;
+  transition: color 0.3s ease-in-out;
+}
+
+.navbar .nav-link:hover {
+  color: #ffb74d !important;
+  text-decoration: underline;
+}
+
+.navboxx {
+  background: linear-gradient(to bottom right, #834aa7, #8e24aa);
+  text-align: center;
+  padding: 20px;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 600;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.span-boxes span {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin: 0 5px;
+  background-color: #66c0b4;
+  border-radius: 50%;
+}
+
+.boxone {
+  background-color: #5db0bb;
+}
+
+.boxthree {
+  background-color: #ce93d8;
+}
+
+.boxtwo {
+  background-color: #90caf9;
+}
+
+.boxfour {
+  background-color: #ff7043;
+}
+
+.boxfive {
+  background-color: #4db6ac;
+}
+
+.boxsix {
+  height: 5px;
+  width: 100%;
+  background-color: #ffeb3b;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
